@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Pure Energy</title> 
+    <link rel="stylesheet" href="gallery.css"> <!-- Linking the gallery CSS -->
+    <link rel="stylesheet" href="../CWK/style.css"> <!-- Linking the style for navigation and fotter -->
+    <link rel="icon" href="../logo.png" type="image/png">
+
+</head>
+
+<body>
+
+    <!-- Creating the navigation bar -->
+    <nav class="navbar">
+        <img src="../logo.png" alt="logo"> <!-- Linking website logo -->
+        <h2>Pure Energy</h2>
+
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">User Profile</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Our team</a></li>
+            <li><a href="">Feedback</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">Site Map</a></li>
+        </ul>
+    </nav>
+
+    <!--Creatting the Gallery-->
+    <br>
+
+    <div class="center">
+        <div>
+            <label for="bg-color">Color : </label>
+            <select name="bg-color" id="bg-color">
+                <!-- Changing background colour -->
+                <option value="rgb(245, 223, 183)" selected>Light Cream</option>
+                <option value="rgb(165, 231, 145)">Light Green</option>
+                <option value="rgb(218, 238, 152)">Light Yellow</option>
+                <option value="rgb(250, 195, 113)">Light Orange</option>
+            </select>
+        </div>
+
+        <div>
+            <h1>Gallery</h1>
+        </div>
+
+        <div>
+            <label for="font">Font : </label>
+            <select name="font" id="font">
+                <!-- Changing text size -->
+                <option value="10px">Mini Small</option>
+                <option value="14px">Small</option>
+                <option value="16px" selected>Medium</option>
+                <option value="20px">Large</option>
+            </select>
+        </div>
+        
+    <br>
+        
+    </div>
+    
+    <div class="full-img" id="fullImgBox">
+        <img src="../Images/image1.jpg" alt="image" id="fullImg">
+        <div class="box">
+            <h1 id="heading">Default</h1>
+            <p id="description">
+
+        </div>
+            
+
+        <span onclick="closeFullImg()">X</span>
+
+    </div>
+
+    
+    
+    <!--linking the Images for the gallery-->
+    <div class="img-gallery">
+
+        <img src="../Images/image5.jpg" alt="image" onclick="openFullImg(this.src,'Environmental World','In the environmental world, various factors such as climate change, pollution, habitat destruction, deforestation, and overexploitation of resources play significant roles in shaping the health and stability of ecosystems. Additionally, human activities profoundly impact the environmental world, leading to environmental degradation, loss of biodiversity, and threats to global sustainability Efforts to protect and preserve the environmental world involve conservation initiatives, sustainable resource management practices, environmental policies, and public awareness campaigns. Addressing environmental challenges requires interdisciplinary collaboration across scientific, governmental, and societal sectors to mitigate the negative impacts of human activities and promote the health and resilience of the planets ecosystems.')">
+
+        <img src="../Images/image6.jpg" alt="image" onclick="openFullImg(this.src, 'Why Wind Energy', 'Wind energy is favored for power generation due to its renewable nature, producing minimal greenhouse gas emissions. It reduces dependence on finite fossil fuels, offering low operating costs and economic benefits through job creation. Wind energy adds diversity to the energy mix, is scalable, and benefits from ongoing technological advancements.')">
+            
+        <img src="../Images/image4.jpg" alt="image" onclick="openFullImg(this.src, 'Solar Power', 'Solar power utilizes photovoltaic (PV) cells or solar panels to convert sunlight into electricity. When sunlight strikes the cells, it excites electrons within semiconductor materials, generating a direct current (DC) electrical flow. An inverter then converts this DC electricity into alternating current (AC), suitable for powering electrical devices and connecting to the grid. Excess electricity can be fed back into the grid through net metering, providing credits or payments to system owners. Optionally, battery storage can store surplus energy for use during low sunlight periods or at night, enhancing energy independence. Solar power offers numerous benefits, including clean and renewable energy production, reduced greenhouse gas emissions, and lowered electricity bills. As technology advances and costs decrease, solar power continues to gain momentum as a key player in the global transition to sustainable energy solutions.')">
+
+        <img src="../Images/image2.jpg" alt="image" onclick="openFullImg(this.src, 'Eco Life', 'Ecological living, embodies a lifestyle focused on sustainability, environmental awareness, and reducing ones ecological footprint. It involves various practices aimed at minimizing environmental impact and fostering harmony with nature. Key aspects include reducing resource consumption to decrease waste, embracing renewable energy sources like solar and wind power, opting for eco-friendly transportation methods, and practicing waste reduction through recycling and composting. Sustainable food choices, conservation efforts, water conservation measures, and minimalistic living are also integral to eco life. By incorporating these principles into daily routines, individuals contribute to a more sustainable and environmentally responsible way of living, benefiting both current and future generations.')">
+        
+        <img src="../Images/image1.jpg" alt="image" onclick="openFullImg(this.src, 'Why Solar Power', 'Solar power is highly favored for its abundance, sustainability, and minimal environmental impact. Derived from the sun, an abundant and renewable resource, solar energy offers a clean alternative to fossil fuels. With no greenhouse gas emissions or air pollutants during operation, solar power helps combat climate change and reduce air pollution. Moreover, once installed, solar panels require minimal ongoing costs, leveraging free sunlight to generate electricity and resulting in significant long-term savings. Harnessing solar energy promotes energy independence, stimulates job creation, and drives economic growth. Its versatility and scalability allow for various installations, catering to diverse energy needs in urban and rural areas. Ongoing technological advancements continue to enhance efficiency, durability, and affordability, making solar power increasingly competitive with conventional energy sources. Additionally, solar power facilitates energy access in remote and off-grid areas, ensuring reliable and sustainable electricity for underserved communities through off-grid systems and energy storage solutions.')">
+            
+        <img src="../Images/image7.jpg" alt="image" onclick="openFullImg(this.src, 'Green City', 'A green city prioritizes sustainability, environmental conservation, and residents quality of life through various key aspects. These include embracing renewable energy sources, implementing energy-efficient technologies, and promoting green spaces like parks and urban forests. Efficient public transportation systems and waste management initiatives aim to reduce congestion, pollution, and landfill waste. Sustainable water management and green building practices further contribute to resource conservation and environmental protection. Urban agriculture and environmental education programs foster community engagement and promote eco-friendly behaviors. Leveraging smart city technologies enhances overall efficiency and quality of life. By integrating these principles, green cities strive to create healthier, more livable, and resilient urban environments while minimizing negative environmental impacts.')">
+            
+        <img src="../Images/image8.jpg" alt="image" onclick="openFullImg(this.src, 'Wind Energy', 'Wind energy, derived from wind power through turbines, holds several key advantages. Firstly, it relies on a renewable and abundant resource the wind sourced from the suns heat, ensuring its availability for power generation. Secondly, wind power is a clean energy source, emitting no greenhouse gases or air pollutants during operation, thus aiding in climate change mitigation. Additionally, once turbines are installed, operational costs are low since wind is free, with ongoing technological advancements making wind energy increasingly cost-effective and competitive. Moreover, wind power promotes energy independence by reducing reliance on fossil fuels and fosters job creation across various sectors. Its scalability allows for deployment in diverse settings, from individual homes to large-scale wind farms, offering flexibility in energy production. Despite its environmental benefits, wind energy may impact wildlife and aesthetics, particularly in large-scale installations. However, proper siting and mitigation measures can alleviate such concerns. Overall, wind energy offers a promising solution to meet energy demands sustainably, playing a vital role in the transition towards cleaner and more sustainable power sources globally.')">
+            
+        <img src="../Images/image3.jpg" alt="image" onclick="openFullImg(this.src, 'How Solar Power Works', 'Solar power utilizes photovoltaic (PV) cells to convert sunlight into electricity through the photovoltaic effect. This process releases electrons from semiconductor materials within the cells, generating a direct current (DC) electrical flow. To align with the alternating current (AC) used by most electrical appliances and the grid, an inverter converts the DC electricity into AC electricity. This converted energy can then power homes or businesses, with excess electricity potentially fed back into the grid through net metering. Optionally, battery storage can store surplus energy for use during low sunlight periods or at night, enhancing energy independence. Solar power offers a sustainable and environmentally friendly alternative to fossil fuel-based energy sources, tapping into abundant sunlight to generate clean and renewable electricity.')">`
+           
+    </div>
+
+    <!-- Creating the footer -->
+    <footer>
+        <div class="about">
+            <p class="follow">Follow Us</p>
+            <div class="social">
+                
+                <p class="instagram">Instagram</p>
+                <img src="../Instagram.jpg" alt="instagram" style="width: 25px;" >
+
+            </div>
+
+            <div class="social">
+                    
+                <p class="facebook">Facebook</p>
+                <img src="../facebook.png" alt="facebook" style="width: 25px;">
+            </div>
+            
+            <div class="social">
+                <p class="google">Google</p>
+                <img src="../google.png" alt="google" style="width: 25px;">
+            </div>
+        </div>
+
+
+        <div class="address">
+            <p class="follow">
+                Address
+            </p>
+            <p class="home_address">10 Trelawney Pl, Colombo 00400</p>
+            <p class="country">Sri Lanka</p>
+            <p class="region">Asia</p>
+        </div>
+        <div class="Contacts">
+            <p class="contacts">
+                Contact Us
+            </p>
+            <p class="Number">tele: 076 381 0025/ 075 084 5396 / 071 907 6190 / 074 037 7743</p>
+            <p class="e-mail">E-Mail: PureEnergy@gmail.com</p>
+        </div>
+    </footer>
+
+<!-- Java script part -->
+<script>
+
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+    var descriptionHTML = document.getElementById("description")
+    var headingH = document.getElementById("heading")
+
+    document.getElementById("bg-color").addEventListener("change",() => {
+        var bgcolor = document.getElementById("bg-color")
+        document.body.style.backgroundColor = bgcolor.value
+    })
+
+    document.getElementById("font").addEventListener("change",() => {
+        var font = document.getElementById("font")
+        document.body.style.fontSize = font.value
+    })
+
+    function openFullImg(pic,head,description){
+        fullImgBox.style.display = "grid";
+        fullImgBox.style.gridTemplateColumns = "500px 1000px"
+        fullImg.style.gap = "100px"
+        fullImg.src = pic;
+        headingH.textContent = head;
+        descriptionHTML.innerHTML = description;
+    }
+
+    function closeFullImg(){
+        fullImgBox.style.display = "none";
+    }
+
+
+</script>
+<br>
+
+</body>
+
+</html>
